@@ -1,0 +1,38 @@
+.botaoPage{
+
+    /*background-color: #FE2E05;*/
+    background-color: rgb(0,0,0,0);
+    color: #F5F5F5;
+    border: none;
+    width: 240px;
+    height: 48px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+.botaoPageFocus{
+    background-color: #FE2E05;
+    color: #1E1F23;
+    border: none;
+    width: 240px;
+    height: 48px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.botaoPage:hover{
+
+    color: #FE2E05;
+
+}
+
+.botaoPageFocus:hover{
+
+    color: #F5F5F5;
+
+}

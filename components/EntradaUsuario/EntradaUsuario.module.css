@@ -1,0 +1,25 @@
+.entrada{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 46px;
+    border: 2px solid var(--cor-entrada-usuario);
+    width: 382px;
+    height: 50px; /*62px*/
+}
+
+.entrada input{
+    border-radius: inherit;
+    background-color: rgba(0,0,0,0);
+    color: var(--cor-entrada-usuario);
+    border: none;
+    width: 320px;
+    outline: none;
+    padding: 0 24px 0 24px;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+
+.entrada img{
+    margin: 0 24px 0 0;
+}
