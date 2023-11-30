@@ -1,0 +1,20 @@
+.homeScreen{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #17181C;
+}
+
+.mainHomeScreen{
+    flex-grow: 1;
+    font-display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /*background-color: aquamarine;*/
+}
+
+.sectionMainHomeScreen{
+    /*background-color: chartreuse;*/
+    padding: 36px;
+    gap: 36px;
+}

@@ -1,0 +1,46 @@
+.sectionCaixaPostar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 2px solid #2E2F36;
+    border-radius: 16px;
+    padding: 16px;
+    gap: 12px;
+    height: 137px;
+    background-color: #26272b;
+    /*background-image: linear-gradient(#2E2F36, #17181C);*/
+}
+
+.sectionCaixaPostarLinha1{
+    display: flex;
+    justify-content: flex-end;
+    align-self: stretch;
+}
+
+.sectionCaixaPostarLinha1 input{
+    flex-grow: 1;
+    border-radius: 46px;
+    padding: 0 24px;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    background-color: #34353d;
+    color:#aeb1bb;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sectionCaixaPostarLinha2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.sectionCaixaPostarLinha2Icons{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: .15;
+}

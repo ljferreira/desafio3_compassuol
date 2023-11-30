@@ -1,4 +1,4 @@
-.botaoLogin{
+.botaoLogin, .botaoPostar{
 
     background-image: var(--cor-botao-gradient);
     color: #F5F5F5;
@@ -11,6 +11,11 @@
     font-weight: 600;
     cursor: pointer;
 
+}
+
+.botaoPostar{
+    width: 101px;
+    height: 56px; 
 }
 
 .botaoLogin:hover{
