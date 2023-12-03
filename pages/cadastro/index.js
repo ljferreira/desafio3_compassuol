@@ -1,7 +1,9 @@
 import PageCadastro from '../../components/PageCadastro/PageCadastro';
 
-const Cadastro =  () => {
+const cadastro =  () => {
+
     return  <PageCadastro/>
+
 }
 
-export default Cadastro;
+export default cadastro;

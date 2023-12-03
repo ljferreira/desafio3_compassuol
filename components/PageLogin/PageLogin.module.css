@@ -49,6 +49,28 @@
         align-self: center;
         font-weight: 600;
         font-size: 16px;
+        text-decoration: none;
+    }
+
+    .linkRegistro{
+        align-self: center;
+        font-weight: 600;
+        font-size: 16px;
+        text-decoration-line:none;
+    }
+
+    .linkRegistro:visited{
+        color: #FFFFFF;
+    }
+
+
+    .sectionLoginMsgErro{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: #E9B425;
+        text-align: center;
+        padding: 0 60px;
     }
 
 }
@@ -100,11 +122,12 @@
         font-size: 16px;
     }
 
-    .sectionLogin h6 span{
+    /*.sectionLogin h6 span{
         align-self: center;
         font-weight: 600;
         font-size: 16px;
-    }
+        text-decoration-color: blue;
+    }*/
 
     .sectionImgCompassUOL{
         display: flex;
@@ -121,6 +144,26 @@
 
     .logoCompassUOL{
         position: fixed;
+    }
+
+    .linkRegistro{
+        align-self: center;
+        font-weight: 600;
+        font-size: 16px;
+        text-decoration-line:none;
+    }
+
+    .linkRegistro:visited{
+        color: #FFFFFF;
+    }
+
+    .sectionLoginMsgErro{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: #E9B425;
+        text-align: center;
+        padding: 0 60px;
     }
 
 }

@@ -1,0 +1,78 @@
+.sectionPost{
+    display: flex;
+    border: 2px solid #2E2F36;
+    border-radius: 16px;
+    padding: 16px;
+    margin-top: 24px;
+    /*flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    
+    
+    gap: 12px;
+    height: 137px;*/
+    background-color: #26272b;
+}
+
+.sectionPostHeader{
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionPostHeader > img{
+    width:fit-content;
+}
+
+.sectionPostHeaderUserDataIconMsg{
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionPostHeaderUserDataIcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sectionPostHeaderUserDataIconMsg p{
+    display: flex;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.sectionPostHeaderUserData{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.sectionPostHeaderUserData h5, .sectionPostHeaderUserData h6{
+    color: #FFFFFF;
+    font-weight: 400;
+    margin: 0;
+}
+
+.sectionPostHeaderUserData h5{
+    font-size: 14px;
+}
+
+.sectionPostHeaderUserData h6{
+    font-size: 12px;
+    color: #75767D;
+}
+
+.sectionPostHeaderUserData h6 span{
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.sectionPostHeaderUserData div{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}

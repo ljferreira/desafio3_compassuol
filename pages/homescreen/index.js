@@ -1,7 +1,7 @@
 import PageHomeScreen from '../../components/PageHomeScreen/PageHomeScreen';
 
-const HomeScreen =  () => {
+const homeScreen =  () => {
     return  <PageHomeScreen/>
 }
 
-export default HomeScreen;
+export default homeScreen;

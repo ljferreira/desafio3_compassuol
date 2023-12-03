@@ -6,7 +6,7 @@ const EntradaUsuario = (props) => {
     return (
 
         <div className={estilos.entrada}>
-            <input placeholder={props.placeHolder}/>
+            <input onChange={props.onChange}  placeholder={props.placeHolder} type={props.tipo} name={props.name}/>
             <img src={props.icone} width={props.tamanho}/>  
         </div>
         

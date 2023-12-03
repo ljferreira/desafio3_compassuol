@@ -123,4 +123,15 @@
         position: fixed;
     }
 
+    .linkFacaLogin{
+        align-self: center;
+        font-weight: 600;
+        font-size: 16px;
+        text-decoration-line:none;
+    }
+
+    .linkFacaLogin:visited{
+        color: #FFFFFF;
+    }
+
 }

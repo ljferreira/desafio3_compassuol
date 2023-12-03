@@ -1,7 +1,7 @@
 import SideMenu from '../../components/SideMenu/SideMenu';
 
-const Sidemenu =  () => {
+const sideMenu =  () => {
     return  <SideMenu/>
 }
 
-export default Sidemenu;
+export default sideMenu;

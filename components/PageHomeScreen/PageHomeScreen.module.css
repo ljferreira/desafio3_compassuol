@@ -15,6 +15,30 @@
 
 .sectionMainHomeScreen{
     /*background-color: chartreuse;*/
+    flex-grow: 1;
     padding: 36px;
+    padding-top: 0;
+    padding-left: 0;
     gap: 36px;
+}
+
+.mainHomeScreenTopics{
+    width: 272px;
+}
+
+.mainHomeScreenTopics div h3{
+    color: white;
+}
+
+.sectionMainHomeScreenTopics{
+    display: flex;
+    justify-content: space-between;
+    padding: 36px;
+}
+
+.sectionMainHomeScreenTopics div div{
+    background-color: #26272b;
+    border: 2px solid #2E2F36;
+    border-radius: 16px;
+    height: 300px;
 }
