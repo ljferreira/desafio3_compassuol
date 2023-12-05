@@ -22,7 +22,7 @@ const PageHomeScreen = () => {
                     </section>
                     <section className={estilos.mainHomeScreenTopics}>
                         <div>
-                            <div>Accordion</div>
+                            <div></div>
                         </div>
                     </section>
                 </section>

@@ -21,7 +21,7 @@
 }
 
 .sectionPostHeader > img{
-    width:fit-content;
+    object-fit: contain;
 }
 
 .sectionPostHeaderUserDataIconMsg{

@@ -21,7 +21,7 @@ const Post = ({titulo}) => {
                             </section>
                             <p>Minha última viagem para a Ilha do Comendador, um lugar simplesmente incrível, natureza praticamente intocada. Recomendo a todos que apreciam o mundo como ele é.</p>
                         </section>
-                        <img src="img/png/unsplash.png" width='200'/>
+                        <img src="img/png/unsplash.png"/>
                     </section>
                 </section>
            );
