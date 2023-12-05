@@ -51,6 +51,15 @@
         font-size: 16px;
     }
 
+    .sectionCadastroMsgErroConfirmPassword{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: #E9B425;
+        text-align: center;
+        padding: 0 60px;
+    }
+
 }
 
 @media only screen and (min-width: 800px){
@@ -132,6 +141,15 @@
 
     .linkFacaLogin:visited{
         color: #FFFFFF;
+    }
+
+    .sectionCadastroMsgErroConfirmPassword{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: #E9B425;
+        text-align: center;
+        padding: 0 60px;
     }
 
 }
